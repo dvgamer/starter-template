@@ -13,9 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
+  css: [
+    '@/assets/scss/bundle.scss'
+  ],
   loading: { color: '#3B8070' },
   /*
   ** Build configuration
